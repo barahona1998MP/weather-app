@@ -1,25 +1,21 @@
 import React from 'react'
-import './loading.css'
+import "./loading.css";
 
 const LoadingScreen = () => {
 
     return (
-        <div className="container">
-            <div className="cubo">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div className="loading">
-                <div>
-                    <h1 className='loading__title'>Loading</h1>
-                    <p className='loading__puntos'>...</p>
-                </div>
-            </div>
+        <div className="porfolio__loader">
+        <div className="sun"></div>
+        <div className="orbit orbit1">
+          <div className="planetX planet1"></div>
         </div>
+        <div className="orbit orbit2">
+          <div className="planetX planet2"></div>
+        </div>
+        <div className="orbit orbit3">
+          <div className="planetX planet3"></div>
+        </div>
+      </div>
     )
 }
 
